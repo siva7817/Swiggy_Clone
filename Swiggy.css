@@ -1,0 +1,140 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Barlow", sans-serif;
+}
+
+.hero__section {
+  min-height: 60vh;
+  display: flex;
+}
+
+.left {
+  width: 50%;
+  padding: 50px 5px 20px 140px;
+}
+
+.left .navbar {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 40px 40px 0;
+}
+
+.left .navbar img {
+  width: 160px;
+  height: 50px;
+}
+
+.navbar__menu_container button {
+  margin: 7px;
+  font-weight: 600;
+  font-size: 17px;
+  font-size: 20px;
+}
+
+.login {
+    border: none;
+    color: black;
+    background-color: transparent;
+}
+
+.signup {
+    border: none;
+    width: 7.2vw;
+    height: 4.5vh;
+    color: white;
+    background-color: black;
+}
+
+.right {
+  width: 50%;
+  height: 540px;
+}
+
+.right img {
+  float: right;
+  display: flex;
+  justify-content: flex-end;
+  width: 40vw;
+  height: 70vh;
+}
+
+.sub__heading_container {
+    margin: 30px 30px 30px 0;
+}
+
+.sub__heading_container h1 {
+    margin: 20px 20px 20px 0;
+    font-size: 40px;
+}
+
+.sub__heading_container p {
+    font-size: 20px;
+    font-weight: 350;
+}
+
+.input__container {
+    margin: 20px 20px 20px 0;
+    position: relative;
+}
+
+.input__container input {
+    width: 450px;
+    height: 60px;
+    font-size: 20px;
+    padding-left: 10px;
+    font-weight: 500;
+    border: 1px solid hsl(231, 6%, 76%);
+    transition: all .1s;
+    border-right: none;
+}
+
+.input__container input:focus {
+    outline-color: #fc8019;
+}
+
+.locate {
+    position: absolute;
+    right: 210px;
+}
+
+.locate {
+    height: 60px;
+    border: none;
+    background: transparent;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.locate i {
+    margin: 2px;
+}
+
+.find {
+    height: 60px;
+    width: 100px;
+    background-color: #fc8019;
+    color: white;
+    font-weight: 600;
+    border: none;
+    font-size: 15px;
+    position: absolute;
+    top: -.3px;
+}
+
+.popular__cities {
+    margin: 40px 40px 40px 0;
+}
+
+.popular__cities h5 {
+    font-weight: 450;
+    font-size: 15px;
+    color: gray;
+    margin: 10px 10px 10px 0;
+}
+
+.popular__cities p {
+    font-size: 21px;
+    font-weight: 400;
+}
